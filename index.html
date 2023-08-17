@@ -16,7 +16,7 @@
 <div id="main-container">
     <div id="section-container">
 
-        <div class="bio-section">
+        <div class="bio-section" id="1">
         <div id="name"> <h1>Jayson Murphy</h1></div>
         <div id="title-location">
             <p id="title"><strong>Web Developer Intern</strong></p>
@@ -27,18 +27,18 @@
         </div>
         </div>
         
-        <div class="skills-section">
+        <div class="skills-section section" id="1">
             <h2>Skills</h2>
             <p class="skill-text"><span class="skill-highlight">Languages:</span> Python | Javascript | HTML/CSS | Java | C++</p>
             <p class="skill-text"><span class="skill-highlight">Frameworks/Libraries:</span> React.js | BeautifulSoup4 | Tkinter | pandas </p>
             <p class="skill-text-end"><span class="skill-highlight">Developer Tools:</span> Git | Github | Visual Studio Code | Figma | Elementor | Wordpress</p>
         </div>
 
-        <div id="projects-section">
-            <h3>Projects</h3>
+        <div class="projects-section section" id="2">
+            <h3  id="project-header">Projects</h3>
 
 
-            <div class="project">
+            <div class="project"  id="upper-project">
                 <div class="project-detail-container">
                     <div class="project-image" ><a href="https://github.com/moosecles/robo-moose" target="_blank"><img src="assets/robomoose.jpg" alt="project image"></img></a></div>
                     <div class="project-bio">
@@ -55,7 +55,7 @@
 
             </div>
 
-            <div class="project">
+            <div class="project"  id="upper-project">
                 <div class="project-detail-container">
                     <div class="project-image" ><a href="https://github.com/moosecles/OneSpoiler" target="_blank"><img src="assets/robomoose.jpg" alt="project image"></img></a></div>
                     <div class="project-bio">
@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="project">
+            <div class="project" id="last-project">
                 <div class="project-detail-container">
                     <div class="project-image"><a href="https://moosecles.github.io/personalwebsite/" target="_blank"><img src="assets/websitepreview.gif" alt="project gif"></img></a></div>
                     <div class="project-bio">
@@ -89,7 +89,7 @@
 
         </div>
         
-        <div id="about-section">
+        <div class="about-section section" id="3">
             <h3>About Me</h3>
             <div id="about-container">
 
@@ -104,9 +104,9 @@
 
     <nav class="floating-nav">
         <ul id="portfolio-link-container">
-            <li class="portfolio-links"><a class="portfolio-text" href="#section-container"><span>1.</span>     Skills</a></li>
-            <li class="portfolio-links"><a class="portfolio-text" href="#projects-section"><span>2.</span>     Projects</a></li>
-            <li class="portfolio-links"><a class="portfolio-text" href="#about-section"><span>3.</span>     About Me</a></li>
+            <li class="portfolio-links" id="1"  ><a class="portfolio-text"href="#1" ><span>1.</span>     Skills</a></li>
+            <li class="portfolio-links" id="2"  ><a class="portfolio-text" href="#project-header"><span>2.</span>     Projects</a></li>
+            <li class="portfolio-links" id="3"  ><a class="portfolio-text" href="#3"><span>3.</span>     About Me</a></li>
             <!-- <li class="portfolio-links"><a class="portfolio-text"><span>_</span>    Contact</a></li> -->
         </ul>    
         <div id="portfolio-vector-links">
@@ -121,7 +121,8 @@
 
 
 
-
+<script src="index.js"></script>
     
-</body>
+</body >
+
 </html>
