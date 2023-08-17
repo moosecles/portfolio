@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/moose.png"> 
+    <!-- MOOSE ICON MADE BY FLATICON.COM I DID NOT MAKE THIS IMAGE -->
+    <title>Portfolio</title>
+</head>
+<body>
+
+<div id="main-container">
+    <div id="section-container">
+
+        <div class="bio-section">
+        <div id="name"> <h1>Jayson Murphy</h1></div>
+        <div id="title-location">
+            <p id="title">Web Developer Intern</p>
+            <p id="location">@ Hopeworks</p>
+        </div>
+        <div id="bio">
+            <p>As a computer science graduate and web developer with a strong passion for software development, I have gained valuable exposure to languages such as Python, HTML/CSS, Javascript, Java, and C++. I am currently working on expanding my skillset to include React. Through my current and previous roles, I have gained experience using popular development tools and am always looking for ways to expand my knowledge and skills. </p>
+        </div>
+        </div>
+        
+        <div class="skills-section">
+            <h2>Skills</h2>
+            <p class="skill-text"><span class="skill-highlight">Languages:</span> Python | Javascript | HTML/CSS | Java | C++</p>
+            <p class="skill-text"><span class="skill-highlight">Frameworks/Libraries:</span> React.js(familiar) | BeautifulSoup4 | Tkinter | pandas(familiar)</p>
+            <p class="skill-text-end"><span class="skill-highlight">Developer Tools:</span> Git | Github | Visual Studio Code | Figma | Elementor | Wordpress</p>
+        </div>
+
+        <div id="projects-section">
+            <h3>Projects</h3>
+
+
+            <div class="project">
+                <div class="project-detail-container">
+                    <div class="project-image" ><a href="https://github.com/moosecles/robo-moose" target="_blank"><img src="assets/robomoose.jpg" alt="project image"></img></a></div>
+                    <div class="project-bio">
+                        <div class="project-title">Robo-Moose</div>
+                        <div class="project-description"><strong>"Robo-Moose"</strong> is a fully functional <strong>Discord music bot</strong> that can be easily customized for use in different servers. By following the provided instructions, users can set up the bot, handle server hosting, and input their own Discord and bot information. The bot offers a range of music-related commands, including playing, skipping, stopping, pausing, resuming, seeking, showing the queue, shuffling, and more. The implementation includes Lavalink for seamless music playback, Hikari-py for efficient code structure, and asynchronous functions for responsive bot interactions.</div>
+                    </div>
+                </div>
+                <div class="project-tech-widget">
+                    <button class="tech-widget">Python</button>
+                    <button class="tech-widget">Hikari-py</button>
+                    <button class="tech-widget">Lavalink</button>
+                </div>
+
+            </div>
+
+            <div class="project">
+                <div class="project-detail-container">
+                    <div class="project-image" ><a href="https://github.com/moosecles/OneSpoiler" target="_blank"><img src="assets/robomoose.jpg" alt="project image"></img></a></div>
+                    <div class="project-bio">
+                        <div class="project-title">One-Spoiler</div>
+                        <div class="project-description">This project entails creating a Python Reddit bot called "OneSpoiler" that fetches the latest spoilers for the One Piece manga series every Thursday. The bot utilizes the Reddit API and the PRAW module to retrieve chapter spoilers from the corresponding subreddit. It maintains a record of the last seen chapter and its organized Tkinter-based GUI allows users to browse and view the spoiler text conveniently. The project emphasizes clear code structure by implementing PRAW and follows the API's guidelines. Future development aims to enhance the bot's functionality by adding features like switching between chapters and providing the latest chapter for reading.</div>
+                    </div>
+                </div>
+                <div class="project-tech-widget">
+                    <button class="tech-widget">Reddit API</button>
+                    <button class="tech-widget">Python</button>
+                    <button class="tech-widget">Tkinter</button>
+                    <button class="tech-widget">PRAW</button>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-detail-container">
+                    <div class="project-image"><a href="https://moosecles.github.io/personalwebsite/" target="_blank"><img src="assets/websitepreview.gif" alt="project gif"></img></a></div>
+                    <div class="project-bio">
+                        <div class="project-title">Keyboard Website</div>
+                        <div class="project-description">This website labelled "Keyboard Website", was my first website I've created. This was done at Hopeworks during my training. The goal was to create a personal website about something I am passionate about. While it may not be too complex, it holds a fond memory in my heart. Through creating this website, I was able to learn a lot about the programming languages displayed below as well as the structuring of my code.</div>
+                    </div>
+                </div>
+                <div class="project-tech-widget">
+                    <button class="tech-widget">HTML</button>
+                    <button class="tech-widget">CSS</button>
+                    <button class="tech-widget">Javascript</button>
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="about-section">
+            <h3>About Me</h3>
+            <div id="about-container">
+
+                <div id="about-bio">
+                    <p>As a computer science graduate and web developer with a strong passion for software development, I have gained valuable exposure to languages such as Python, HTML/CSS, Javascript, Java, and C++. I am currently working on expanding my skillset to include React. Through my current and previous roles, I have gained experience using popular development tools and am always looking for ways to expand my knowledge and skills. I have a strong work ethic and dedication to delivering high-quality code and am eager to take on new challenges and learn from experienced professionals. </p>
+                </div>
+                <div class="about-image"><img src="assets/pixeljayson.png" alt="headshot image"></img></div>
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="floating-nav">
+        <ul id="portfolio-link-container">
+            <li class="portfolio-links"><a class="portfolio-text" href="#section-container"><span>_</span>     Skills</a></li>
+            <li class="portfolio-links"><a class="portfolio-text" href="#projects-section"><span>_</span>     Projects</a></li>
+            <li class="portfolio-links"><a class="portfolio-text" href="#about-section"><span>_</span>     About Me</a></li>
+            <!-- <li class="portfolio-links"><a class="portfolio-text"><span>_</span>    Contact</a></li> -->
+        </ul>    
+        <div id="portfolio-vector-links">
+            <a href="mailto:someone@example.com" data-tooltip="Mail me!"><img src="assets\envelope.svg" alt="Email Logo" class="vector-links"></a>
+            <a href="https://www.linkedin.com/in/jayson-murphy" data-tooltip="Connect with me on LinkedIn!"><img src="assets\linkedin.svg" alt="LinkedIn Logo" class="vector-links"></a>
+            <a href="https://github.com/moosecles/" data-tooltip="Here's my Github!" target="_blank"><img src="assets\github.svg" alt="Github Logo" class="vector-links"></a>
+            <a href="assets\Jayson-Murphy-Resume-8-16-23.pdf" data-tooltip="My Resume" target="_blank" id="wiggle" download><img src="assets\file.svg" alt="File Logo" class="vector-links" ></a>
+        </div>
+    </nav>
+
+</div>
+
+
+
+
+    
+</body>
+</html>
