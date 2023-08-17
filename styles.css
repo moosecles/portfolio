@@ -11,8 +11,9 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f8f5f2;
 }
-* body p{ 
+* body #about-section p, * body .project-description p, * body .bio-section #bio{ 
     color: #222525;
+    line-height: 1.6;
 }
 
 /* EFFECTS FOR ALL CODE END */
@@ -26,6 +27,9 @@ html, body {
 }
 
 
+.animation {
+  transform: translate(-100%);
+}
 
 /* BIO SECTION START */
 .bio-section {
@@ -39,21 +43,29 @@ html, body {
 }
 
 h1{
-    font-size: 96px;
+    font-size: 65px;
     font-weight: 800;
     margin-top: 0.5em;
     margin-bottom: 0;
 }
 
-h1:after, .skill-text::after{
+h1::after{
+  content:'  ';
+  display:block;
+  border:1.5px solid #232323;
+  width: 10rem;
+  margin-top: .2em;
+}
+.skill-text::after{
     content:'  ';
     display:block;
     border:1.5px solid #232323;
-    width: 8rem;
+    width: 7rem;
+    margin-top: .5em;
 }
-#title{font-size: 32px;}
-#location{font-size:24px;}
-#bio{font-size:24px; margin-top: 3rem;}
+#title{font-size: 24px;}
+#location{font-size:20px;}
+#bio{font-size:20px; margin-top: 3rem;}
 #title-location{margin-top:2rem;}
 #title-location p{
     margin-top: .2rem;
@@ -76,13 +88,13 @@ h1:after, .skill-text::after{
 
 .skill-highlight{   
     font-weight: 800; 
-    font-size: 32px; 
+    font-size: 24px; 
     margin-right: 1rem;
 }
-.skill-text{ font-weight: 400; font-size: 24px;}
-.skill-text-end{ font-weight: 400; font-size: 24px;}
+.skill-text{ font-weight: 400; font-size: 20px;}
+.skill-text-end{ font-weight: 400; font-size: 20px;}
 h2{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 800;
 }
 /* SKILLS SECTION END*/
@@ -91,7 +103,7 @@ h2{
 /* PROJECT SECTION START */
 
 h3{
-    font-size:70px;;
+    font-size:65px;
     margin: 0;
     margin-bottom: 1.5em;
     padding: 0;
@@ -124,12 +136,12 @@ img{
 }
 
 .project-title{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: .3em;
 }
 .project-description{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
 }
 .project{
@@ -250,7 +262,7 @@ img{
     list-style-type: none;
     justify-content: center;
     margin-top: 8em;
-    margin-bottom: 8em;
+    margin-bottom: 3em;
     text-align: left;
 
 }
@@ -270,13 +282,13 @@ img{
     padding-left: 25%;
     font-weight: 800;
     padding-bottom: 3rem;
-    font-size: 37px;
+    font-size: 35px;
     color: #078080;
 }
 
 .vector-links{
-    width:60px;
-    height:60px;
+    width:40px;
+    height:40px;
 }
 
 
