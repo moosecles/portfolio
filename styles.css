@@ -33,6 +33,7 @@ html, body {
 
 /* BIO SECTION START */
 .bio-section {
+    padding-top: 5em;
     flex-basis: calc(100% - 25%);
     padding-left: 6em; 
     padding-right: 10em; 
