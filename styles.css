@@ -155,7 +155,7 @@ img{
 }
 
 #lastproject {
-  margin-bottom: 1em;
+  margin-bottom: 4em;
 }
 
 .project-detail-container{
@@ -180,7 +180,7 @@ img{
 .tech-widget {
     background: #078080;
     border-radius: 999px;
-    box-shadow: #078080 0 10px 20px -10px;
+    box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.75);
     box-sizing: border-box;
     color: #FFFFFF;
     font-weight: 700;
