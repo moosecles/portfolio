@@ -9,10 +9,10 @@ html, body {
 *{    scroll-behavior: smooth;}
 * body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #f8f5f2;
+    background-color: #394648;
 }
 * body .about-section p, * body .project-description p, * body .bio-section #bio{ 
-    color: #222525;
+    color: #fff;
     line-height: 1.6;
 }
 
@@ -23,7 +23,7 @@ html, body {
     flex-direction:row;
     align-items: stretch;
     height: 100%;
-    color: #232323;
+    color: #fff;
 }
 
 
@@ -53,14 +53,14 @@ h1{
 h1::after{
   content:'  ';
   display:block;
-  border:1.5px solid #232323;
+  border:1.5px solid #fff;
   width: 10rem;
   margin-top: .2em;
 }
 .skill-text::after{
     content:'  ';
     display:block;
-    border:1.5px solid #232323;
+    border:1.5px solid #fff;
     width: 7rem;
     margin-top: .5em;
 }
@@ -178,11 +178,11 @@ img{
     height: 2em;
 }
 .tech-widget {
-    background: #078080;
+    background: #fff;
     border-radius: 999px;
     box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.75);
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #394648;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -261,7 +261,7 @@ img{
     justify-content: space-evenly;
 }
 
-#portfolio-vector-links img{     filter: invert(33%) sepia(96%) saturate(535%) hue-rotate(134deg) brightness(96%) contrast(94%);}
+#portfolio-vector-links img{filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(182deg) brightness(105%) contrast(101%);}
 
 #portfolio-link-container{
     display:flex;
@@ -293,7 +293,7 @@ img{
     font-weight: 800;
     margin-bottom: 3rem;
     font-size: 35px;
-    color: #078080;
+    color: #fff;
 }
 
 .vector-links{
@@ -303,10 +303,10 @@ img{
 
 
 :root {
-    --visited-link-color:#078080;
+    --visited-link-color:#fff;
 }
 
-li a:link { text-decoration: none; color: #078080;}
+li a:link { text-decoration: none; color: #fff;}
 li a:visited { text-decoration: none; color: var(--visited-link-color);}
 li a:hover { text-decoration: none; color: var(--visited-link-color);}
 li a:active { text-decoration: none; color: var(--visited-link-color);}
@@ -329,7 +329,7 @@ nav.floating-nav ul li a {
 }
 
 nav.floating-nav ul li a:hover {
-  color: #f45d48;
+  color: #D4442B;
   font-size: 37px;
   z-index: 1;
 }
