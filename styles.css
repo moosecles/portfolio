@@ -195,7 +195,7 @@ h2 {
 /* ===== About Section ===== */
 .about-section {
   margin: var(--space-xxl) 0;
-  padding-bottom: 100px; /* Add space for bottom nav */
+  padding-bottom: 100px; 
 }
 
 .about-content {
@@ -254,7 +254,7 @@ h2 {
 
 .nav-link:hover {
   color: var(--accent-color);
-  font-size: 2.3125rem; /* 37px */
+  font-size: 2.3125rem; 
 }
 
 /* Active state */
@@ -366,7 +366,6 @@ h2 {
     margin-bottom: 2rem
   }
 
-  /* Floating bottom nav bar */
   .sidebar {
     position: sticky;
     bottom: 0;
@@ -380,7 +379,6 @@ h2 {
     box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
   }
 
-  /* Hide navigation links on mobile */
   .nav-links {
     display: none;
   }
@@ -426,13 +424,11 @@ h2 {
     display: none;
   }
 
-  /* Center social links in bottom bar */
   .social-links {
     justify-content: space-around;
     padding: 0 var(--space-md);
   }
 
-  /* Center Jayson's image on mobile */
   .about-content {
     flex-direction: column;
     align-items: center;
@@ -460,6 +456,6 @@ h2 {
   }
   
   .about-section {
-    padding-bottom: 80px; /* Adjust for smaller bottom nav */
+    padding-bottom: 80px; 
   }
 }
