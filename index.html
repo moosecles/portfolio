@@ -3,150 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="description" content="Jayson Murphy's portfolio - Software Developer">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/moose.png"> 
-    <!-- MOOSE ICON MADE BY FLATICON.COM I DID NOT MAKE THIS IMAGE -->
-    <title>Jayson Murphy | Web Development Intern</title>
+    <link rel="icon" href="assets/moose.png" type="image/png">
+    <title>Jayson Murphy | Software Developer</title>
 </head>
 <body>
+    <div class="page-container">
+        <main class="content-container">
+            <header class="bio-section">
+                <h1>Jayson Murphy</h1>
+                <div class="title-location">
+                    <p class="title"><strong>Software Developer</strong></p>
+                    <p class="location">Remote | New Jersey | Philadelphia</p>
+                </div>
+                <div class="bio">
+                    <p>Hello there! I'm a Software Developer that brings hands on experience with Python, TypeScript, React, C#, and .NET, along with practical knowledge of a wide range of technologies/frameworks. In my spare time I love to build cool things that interest me.Check out my projects below (click the images!), and feel free to reach out using the icons in the nav bar!</p>
+                </div>
+            </header>
+            
+            <section class="skills-section" id="skills">
+                <h2>Technical Skills</h2>
+                <p class="skill-text"><span class="skill-highlight">Languages:</span> Python | TypeScript | JavaScript | C# | Java | SQL | HTML/CSS</p>
+                <p class="skill-text"><span class="skill-highlight">Frameworks/Libraries:</span> React | .NET | PostgreSQL | REST APIs | Zustand | MSW | NLTK | React Native | Axios | Jest | Vitest</p>
+                <p class="skill-text"><span class="skill-highlight">Developer Tools:</span> Azure | Git | GitHub | Docker | Docker Compose | Fluent Bit | Splunk | Kafka | Zookeeper | Linux | Asana</p>
+                <p class="skill-text-end"><span class="skill-highlight">Development Areas:</span> RESTful APIs | Monorepos (Nx) | Unit Testing | Deployment Pipelines | Component Design | Log Ingestion Pipelines | Observability</p>
+            </section>
 
-<div id="main-container">
-    <div id="section-container">
+            <section class="projects-section" id="projects">
+                <h2>Projects</h2>
 
-        <div class="bio-section" id="1">
-        <div id="name"> <h1>Jayson Murphy</h1></div>
-        <div id="title-location">
-            <p id="title"><strong>Software Developer Intern @ Holman</strong></p>
-            <p id="location">Mount Laurel, NJ</p>
-        </div>
-        <div id="bio">
-            <p>Hello there! I'm a Software Engineer skilled in languages such as Python, HTML, CSS, and JavaScript, with a fervent enthusiasm for software engineering and development. In my spare time I love to build cool things that interest me. Check out some of my projects below and feel free to reach out using the links on the right!</p>
-        </div>
-        </div>
-        
-        <div class="skills-section section" id="1">
-            <h2>Skills</h2>
-            <p class="skill-text"><span class="skill-highlight">Languages:</span> Python | Javascript | HTML/CSS | Java | C++ | SQL  </p>
-            <p class="skill-text"><span class="skill-highlight">Frameworks/Libraries:</span> Keras | Tensorflow | NumPy | NLTK | BeautifulSoup4 | Tkinter | pandas | API | PostgreSQL </p>
-            <p class="skill-text"><span class="skill-highlight">Developer Tools:</span> Git | Linux | Docker | Visual Studio Code | Kubernetes | Deployment | Design | AWS | AWS RDS</p>
-            <p class="skill-text-end"><span class="skill-highlight">Soft Skills:</span> Teamwork | Time Management | Communication | Project/Client Management | Adaptable | Agile</p>
-        </div>
+                <article class="project-card">
+                    <div class="project-content">
+                        <a href="https://github.com/moosecles/toxicity_classifier" target="_blank" rel="noopener noreferrer" class="project-image">
+                            <img src="assets/ml-project.png" alt="Toxicity Classifier project screenshot">
+                        </a>
+                        <div class="project-info">
+                            <h3 class="project-title">Sentence Toxicity Classifier</h3>
+                            <div class="project-description">
+                                <p>Built a toxicity classifier using Naive Bayes and LSTM RNN to assess text toxicity severity with high accuracy. Managed the full ML pipeline—data preprocessing, model training, evaluation—using Python, scikit-learn, TensorFlow, and NLTK. Optimized dataset size by 50%, boosting production speed without sacrificing model performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tech-stack">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Keras</span>
+                        <span class="tech-pill">Tensorflow</span>
+                        <span class="tech-pill">Scikit-learn</span>
+                        <span class="tech-pill">NLTK</span>
+                    </div>
+                </article>
 
-        <div class="projects-section section" id="2">
-            <h3  id="project-header">Projects</h3>
+                <article class="project-card">
+                    <div class="project-content">
+                        <a href="#" class="project-image">
+                            <img src="assets/siem.gif" alt="SIEM Pipeline project screenshot">
+                        </a>
+                        <div class="project-info">
+                            <h3 class="project-title">SIEM Simulation Pipeline</h3>
+                            <div class="project-description">
+                                <p>Built an end-to-end log pipeline to simulate realistic security event flows using Kafka, Fluent Bit, and Splunk. Resolved service race conditions and streamlined orchestration, reducing setup troubleshooting time by over 60%. Containerized and orchestrated all components (log generator, Kafka broker, consumer, Splunk) using Docker Compose.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tech-stack">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Docker</span>
+                        <span class="tech-pill">Kafka</span>
+                        <span class="tech-pill">Fluent Bit</span>
+                        <span class="tech-pill">Splunk</span>
+                    </div>
+                </article>
 
-            <div class="project"  id="upper-project">
-                <div class="project-detail-container">
-                    <div class="project-image" ><a href="https://github.com/moosecles/toxicity_classifier" target="_blank"><img src="assets/ml-project.png" alt="project image"></img></a></div>
-                    <div class="project-bio">
-                        <div class="project-title">Toxicity Classifier</div>
-                        <div class="project-description"><p>
-                             My Toxicity Classifier consists of two versions, each utilizing a different algorithm - Multinomial Naive Bayes and LSTM RNN. This project was developed using Python, pandas, TensorFlow, Keras, NumPy, scikit-learn, and NLTK to determine sentence toxicity and assess its degree of toxicity for various applications.</p></div>
+                <article class="project-card">
+                    <div class="project-content">
+                        <a href="https://github.com/moosecles/robo-moose" target="_blank" rel="noopener noreferrer" class="project-image">
+                            <img src="assets/discord.png" alt="Discord bot project screenshot">
+                        </a>
+                        <div class="project-info">
+                            <h3 class="project-title">Robo-Moose</h3>
+                            <div class="project-description">
+                                <p>A versatile Discord music bot with commands like play, skip, and pause. Utilizes Lavalink for smooth music playback and Hikari-py for organized code structure. Features asynchronous functions for seamless user interactions and can be easily adapted to various servers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tech-stack">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Hikari-py</span>
+                        <span class="tech-pill">Lavalink</span>
+                    </div>
+                </article>
+            </section>
+            
+            <section class="about-section" id="about">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>As a Software Developer, I have built expertise across multiple programming languages and frameworks. My experience at Holman involved developing scalable web applications for fleet management and reducing technical debt through modern design patterns.</p>
+                        <p>I thrive in collaborative environments and have successfully worked in Agile teams to deliver projects on time. My technical support background at Akamai enhanced my troubleshooting skills and ability to resolve complex issues across diverse environments.</p>
+                        <p>When I'm not coding, I enjoy mechanical keyboards, volleyball, and weightlifting. I'm constantly learning new technologies and aim to grow into senior roles where I can mentor others while tackling challenging technical problems.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/pixeljayson.gif" alt="Pixel art portrait of Jayson">
                     </div>
                 </div>
-                <div class="project-tech-widget">
-                    <button class="tech-widget">Python</button>
-                    <button class="tech-widget">Keras</button>
-                    <button class="tech-widget">Tensorflow</button>
-                    <button class="tech-widget">Pandas</button>
-                    <button class="tech-widget">Numpy</button>
-                    <button class="tech-widget">NLTK</button>
-                </div>
+            </section>
+        </main>
 
-            </div>
-
-            <div class="project"  id="upper-project">
-                <div class="project-detail-container">
-                    <div class="project-image" ><a href="https://github.com/moosecles/robo-moose" target="_blank"><img src="assets/discord.png" alt="project image"></img></a></div>
-                    <div class="project-bio">
-                        <div class="project-title">Robo-Moose</div>
-                        <div class="project-description"><p>
-                            "Robo-Moose" is a versatile Discord music bot, adaptable to various servers through user-friendly setup instructions. Equipped with music commands like play, skip, and pause, it utilizes Lavalink for smooth music playback, Hikari-py for organized code, and asynchronous functions for seamless user interactions.</p></div>
-                    </div>
+        <aside class="sidebar">
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="#skills" class="nav-link"><span>1.</span> Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link"><span>2.</span> Projects</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link"><span>3.</span> About Me</a></li>
+                </ul>    
+                <div class="social-links">
+                    <a href="mailto:jayson.murphy99@gmail.com" aria-label="Email me" data-tooltip="Mail me!">
+                        <img src="assets/envelope.svg" alt="Email icon" class="social-icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jayson-murphy" aria-label="LinkedIn profile" data-tooltip="Connect with me on LinkedIn!" rel="noopener noreferrer">
+                        <img src="assets/linkedin.svg" alt="LinkedIn icon" class="social-icon">
+                    </a>
+                    <a href="https://github.com/moosecles/" aria-label="GitHub profile" data-tooltip="Here's my Github!" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/github.svg" alt="GitHub icon" class="social-icon">
+                    </a>
+                    <a href="/assets/Murphy_Jayson_Resume.pdf" aria-label="Download Resume" data-tooltip="Download my resume!" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/file.svg" alt="Resume icon" class="social-icon">
+                    </a>
                 </div>
-                <div class="project-tech-widget">
-                    <button class="tech-widget">Python</button>
-                    <button class="tech-widget">Hikari-py</button>
-                    <button class="tech-widget">Lavalink</button>
-                </div>
-
-            </div>
-
-            <div class="project"  id="upper-project">
-                <div class="project-detail-container">
-                    <div class="project-image" ><a href="https://github.com/moosecles/OneSpoiler" target="_blank"><img src="assets/reddit.jpg" alt="project image"></img></a></div>
-                    <div class="project-bio">
-                        <div class="project-title">One-Spoiler</div>
-                        <div class="project-description"><p>"OneSpoiler" is a Python Reddit bot fetching weekly One Piece manga spoilers via the Reddit API and PRAW module. It features a Tkinter GUI for spoiler browsing, stores the last viewed chapter, and prioritizes organized code with PRAW. Upcoming improvements include chapter switching and displaying the latest chapter for reading.</p></div>
-                    </div>
-                </div>
-                <div class="project-tech-widget">
-                    <button class="tech-widget">Reddit API</button>
-                    <button class="tech-widget">Python</button>
-                    <button class="tech-widget">Tkinter</button>
-                    <button class="tech-widget">PRAW</button>
-                </div>
-            </div>
-
-            <div class="project" id="last-project">
-                <div class="project-detail-container">
-                    <div class="project-image"><a href="https://moosecles.github.io/personalwebsite/" target="_blank"><img src="assets/websitepreview.gif" alt="project gif"></img></a></div>
-                    <div class="project-bio">
-                        <div class="project-title">Keyboard Website</div>
-                        <div class="project-description"><p>
-                            "Keyboard Website" is where my web development journey kicked off, back when I was training at Hopeworks. It's a special project for me since it's all about something I love – keyboards. While it might not be super fancy, it's close to my heart as it taught me tons about the languages listed below and how to put my code together just right.</p></div>
-                    </div>
-                </div>
-                <div class="project-tech-widget">
-                    <button class="tech-widget">HTML</button>
-                    <button class="tech-widget">CSS</button>
-                    <button class="tech-widget">Javascript</button>
-                </div>
-            </div>
-
-        </div>
-        
-        <div class="about-section section" id="3">
-            <h3>About Me</h3>
-            <div id="about-container">
-
-                <div id="about-bio">
-                    <div id="about-p">
-                        <p>As a computer science graduate and web developer with a strong passion for software development, I have gained valuable exposure to languages such as Python, HTML/CSS, Javascript, Java, and C++. Through my current and previous roles, I have gained experience using popular development languages, tools, frameworks, and am always looking for ways to expand my knowledge and skills. I have a strong work ethic and dedication to delivering high-quality code and am eager to take on new challenges. </p>
-                        <p>Beyond my coding endeavors, I find joy in hobbies like diving into the world of mechanical keyboards, spiking volleyballs, and lifting weights. I'm an enthusiastic learner at heart and always eager to embrace new knowledge. As I look ahead, my goal is to eventually be in a position where I am able to help others within a senior software role.</p>
-                        <p><strong>Want to contact me?</strong> Mess around with the icons located on the <strong>right</strong>, I promise you will find what you are looking for!</p>
-                    </div>
-                </div>
-                <div class="about-image"><img src="assets/pixeljayson.gif" alt="headshot image"></img></div>
-            </div>
-        </div>
-
+            </nav>
+        </aside>
     </div>
 
-    <nav class="floating-nav">
-        <ul id="portfolio-link-container">
-            <li class="portfolio-links" id="1"  ><a class="portfolio-text"href="#1" ><span>1.</span>     Skills</a></li>
-            <li class="portfolio-links" id="2"  ><a class="portfolio-text" href="#project-header"><span>2.</span>     Projects</a></li>
-            <li class="portfolio-links" id="3"  ><a class="portfolio-text" href="#3"><span>3.</span>     About Me</a></li>
-            <!-- <li class="portfolio-links"><a class="portfolio-text"><span>_</span>    Contact</a></li> -->
-        </ul>    
-        <div id="portfolio-vector-links">
-            <a href="mailto:someone@example.com" data-tooltip="Mail me!"><img src="assets\envelope.svg" alt="Email Logo" class="vector-links"></a>
-            <a href="https://www.linkedin.com/in/jayson-murphy" data-tooltip="Connect with me on LinkedIn!"><img src="assets\linkedin.svg" alt="LinkedIn Logo" class="vector-links"></a>
-            <a href="https://github.com/moosecles/" data-tooltip="Here's my Github!" target="_blank"><img src="assets\github.svg" alt="Github Logo" class="vector-links"></a>
-            <!-- <a href="assets\Jayson-Murphy-Resume-8-16-23.pdf" data-tooltip="My Resume" target="_blank" id="wiggle" download><img src="assets\file.svg" alt="File Logo" class="vector-links" ></a> -->
-        </div>
-    </nav>
-
-</div>
-
-
-
-<script src="index.js"></script>
-    
-</body >
-
+    <script src="index.js"></script>
+</body>
 </html>
