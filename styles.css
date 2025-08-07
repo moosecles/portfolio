@@ -217,12 +217,14 @@ h2 {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .about-image img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
+  max-width: 100%;
+  width: auto;       
+  height: auto;          
+  max-height: 400px;      
 }
 
 /* ===== Navigation ===== */
